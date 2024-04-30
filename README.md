@@ -10,3 +10,6 @@ A wiggle sequence is a sequence where the differences between successive numbers
 A subsequence is obtained by deleting some elements (possibly zero) from the original sequence, leaving the remaining elements in their original order.
 
 Given an integer array nums, return the length of the longest wiggle subsequence of nums.
+
+# Solution
+Runs in O(n). Solves the problem by iterating through the entire array once, incrementing length whenever a pair that has a opposing sign for its difference compared to the last pair is found.
